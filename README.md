@@ -2,7 +2,7 @@
 
 This is a multi-resolution volume rendering framework by inferencing RmdnCache for interactive visualization of large-scale dataset. 
 
-![result](https://github.com/sunjianxin/Deep-Learning-Prefetching/teaser.png)
+![result](https://github.com/sunjianxin/Deep-prefetching-renderer/teaser.png)
 
 # Dependencies
 - CUDA library installed for kernel calls of parallelism.
