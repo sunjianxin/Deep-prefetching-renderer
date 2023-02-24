@@ -1,6 +1,6 @@
 # Multi-resolution large-scale volume renderer using RmdnCache
 
-This is a multi-resolution volume rendering framework by inferencing RmdnCache for interactive visualization of large-scale dataset. 
+This is a multi-resolution volume rendering framework by inferencing RmdnCache for interactive visualization of large-scale dataset. The detailed results can be visited from the demo video on Youtube from [here](https://youtu.be/SBPq6zV1LUQ).
 
 ![result](https://github.com/sunjianxin/Deep-prefetching-renderer/blob/main/teaser.png)
 
@@ -27,6 +27,3 @@ Where sample_distance is the sample distance of neighboring sample points on the
 # Inference
 
 The input is the parameter of the POV of interest and the output is the predicted microblock indices for prefetching. The inferencing is done using TorchLib under C++ environment with optimized performance for interactive visualization.
-
-# Demo
-The detailed results can be visited from the demo video on Youtube from [here](https://youtu.be/SBPq6zV1LUQ),
